@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>age calculator</title>
+</head>
+<body>
+    <div id="root">
+        <div  class="form">
+            <label for="days">Days</label>
+            <input type="number" id="days" placeholder="Enter Day" min="1" max="31">
+            <label for="Months">Months</label>
+            <input type="number" id="Months"  placeholder="Enter Month" min="1" max="12" >
+            <label for="Years">Years</label>
+            <input type="number" id="Years" placeholder="Enter Year" min="0">
+            <button type="submit" onclick="submit()" >submit</button>
+        </div>
+        <div id="result" class="hidden">your age will apper here</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
